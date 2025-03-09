@@ -6,7 +6,7 @@ import Contact from './pages/Contact';
 
 const App = () => {
   return (
-    <Router basename='/githubpages/'>
+    <Router basename='/githubpages'>
       <div className="flex flex-col min-h-screen">
         <Routes>
           <Route path="/" element={<Home />} />
